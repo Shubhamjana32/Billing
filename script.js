@@ -462,7 +462,7 @@ document.addEventListener('DOMContentLoaded', () => {
       lines.push(SEP);
 
       lines.push(`Payment Method: ${paymentMethod}`);
-      lines.push(`Cashier: Shubham`);
+      lines.push(`Cashier: Kousik`);
       lines.push('\n      Thank you for dining with us.');
 
       return lines.join('\n');
