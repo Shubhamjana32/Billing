@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', () => {
               const btn = document.createElement('button');
               btn.type = 'button';
               btn.className = 'btn secondary quick-add-btn';
-              btn.textContent = `${s.name} — ₹${s.price}`;
+              btn.textContent = `${s.name} — Rs.${s.price}`;
               
               quickAddButtons.set(s.name, btn); 
               
