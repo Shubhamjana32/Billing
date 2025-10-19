@@ -272,7 +272,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // -----------------------------------------------------------------
 
   function formatCurrency(num) {
-      return '₹' + Number(num).toLocaleString('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+      return 'Rs.' + Number(num).toLocaleString('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   }
   
   // Helper to format date/time into a clean filename string (e.g., 2025-10-18_15-30-45)
